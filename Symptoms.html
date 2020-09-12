@@ -17,6 +17,32 @@
 	margin-left: 10%;
 	margin-right: 10%;
 }
+	
+.navbar {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  width: 18%; /* Five links of equal widths */
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navbar a:hover
+{ background-color: grey;
+}
+
+.navbar a.active
+{ background-color: red;
+}
+	
 p
 {	font-family: "Times New Roman", Times, serif;
 	display: block;
@@ -40,6 +66,13 @@ ul
 </head>
 
 <body>
+<div class="navbar">
+  <a href="CoronaWorld.html">Home</a> 
+  <a href="Statistics.html">Statistics</a>
+  <a href="History.html">History</a> 
+  <a class="active" href="Symptoms.html">Symptoms</a> 
+  <a href="Prevention.html">Prevention</a>
+</div>
 <div class="background">
   <div class="blur">
 
